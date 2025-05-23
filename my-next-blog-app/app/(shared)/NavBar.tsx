@@ -1,12 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+import SocialLink from './SocialLink'
 type Props = {}
 
 const NavBar = (props: Props) => {
   return (
     <header>
         <nav className="flex justify-between items-center w-full bg-wh-900 text-wh-10 px-10 py-4">
-           <div className='hidden sm:block'>what </div>
+           <div className='hidden sm:block'>
+            <SocialLink/>
+            </div>
            <div className='flex gap-10'>
                 <Link href='/'>Home</Link>
                 <Link href='/'>Trending</Link>
