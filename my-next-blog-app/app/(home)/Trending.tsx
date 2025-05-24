@@ -26,19 +26,23 @@ const TrendingCard = ({className})=> {
 
 const Trending = (props: Props) => {
   return (
-    <section className='py-4 '>
+    <section className='py-4'>
       <div className='flex gap-8 items-center mb-4'>
         <div className=' text-wh-50 px-7 py-2 font-bold bg-wh-900'>Trending</div>
         <p className='text-sm'>Nunc enim lobortis quam risus et feugiat nibh eu ornare. Molestie sit
           nulla dolor diam turpis.</p>
       </div>
-      <div className='sm:grid grid-cols-4 grid-rows-2 h-[500px] gap-4'>
+       <div className='sm:grid grid-cols-4 grid-rows-2 sm:h-[500px] gap-4 my-8'>
         <TrendingCard className=' col-span-2 row-span-2'/>
         <TrendingCard className=' col-span-2 row-span-1'></TrendingCard>
         <TrendingCard className=' col-span-1 row-span-1'></TrendingCard>
         <TrendingCard className=' col-span-1 row-span-1'></TrendingCard>
-
       </div>
+      <p className="text-sm">
+        Id cursus purus adipiscing ipsum pretium. Scelerisque suspendisse
+        pharetra ultrices mauris ut lacus sagittis pharetra dictum. Congue
+        viverra in aliquam feugiat pellentesque.
+      </p>
     </section>
   )
 }
