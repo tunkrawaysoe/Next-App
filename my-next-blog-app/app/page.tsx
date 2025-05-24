@@ -6,7 +6,6 @@ export default function Home() {
     <main className="px-10">
       <Trending/>
       
-
     </main>
     
   );
