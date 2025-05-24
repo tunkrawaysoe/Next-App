@@ -28,8 +28,6 @@ const SocialLink = (props: Props) => {
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
          <Image  src={Discord} alt='twitter' className='hover:opacity-30'/>
         </a>
-
-        
     </div>
   )
 }
