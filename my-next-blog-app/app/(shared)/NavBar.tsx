@@ -26,8 +26,8 @@ const NavBar = (props: Props) => {
             what
            </div>
         
-        </div>
-           <hr className="border mx-10 border-gray-300 my-4" />
+        </div><hr className="border mx-10 border-gray-300 my-4" />
+           
         
 
     </header>
