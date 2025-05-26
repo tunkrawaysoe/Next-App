@@ -23,11 +23,11 @@ const Card = ({className,isLongForm,isSmallCard,imageHeight}: Props) => {
             alt="tech"
             placeholder="blur"
             src={ai4}
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "cover" }}  
           />
         </div>
       </Link>
-      <div className="basis-full">
+      <div className="basis-full ">
         <Link href={`/`}>
           <h4
             className={`font-bold hover:text-accent-green

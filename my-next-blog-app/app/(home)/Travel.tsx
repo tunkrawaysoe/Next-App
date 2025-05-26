@@ -12,12 +12,15 @@ const Travel = (props: Props) => {
         </h4>
         <p className="font-bold text-2xl">Latest News in Technology</p>
     </div>
-    <div className='sm:grid grid-rows-2 grid-cols-3 gap-4'>
-        <Card className='col-span-1 row-span-1 h-[300px] bg-accent-orange' imageHeight="h-48"/>
-        <Card className='col-span-1 row-span-1 h-[300px] bg-blue-600' imageHeight="h-48"/>
-        <Card className='col-span-1 row-span-1 h-[300px] bg-wh-100' imageHeight="h-48"/>
-        <Card className='flex gap-3 col-span-3 row-span-1 h-[300px] bg-slate-600' imageHeight="h-96"/>
+    <div className='sm:flex gap-6'>
+      <Card className='basis-1/3 sm:mt-2 mt-5' imageHeight='h-80'/>
+      <Card className='basis-1/3 sm:mt-2 mt-5 ' imageHeight='h-80'/>
+      <Card className='basis-1/3 sm:mt-2 mt-5' imageHeight='h-80'/>
     </div>
+ 
+      <Card  className='sm:flex mt-5 items-center justify-between gap-6' imageHeight='h-80'/>
+    
+    
     
       
     </section>
